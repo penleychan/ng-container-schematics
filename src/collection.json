@@ -2,8 +2,9 @@
   "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
   "schematics": {
     "container": {
-      "description": "A blank schematic.",
-      "factory": "./container/index#container"
+      "description": "A container schematic for angular smart component.",
+      "factory": "./container/index#container",
+      "schema": "./container/schema.json"
     }
   }
 }
